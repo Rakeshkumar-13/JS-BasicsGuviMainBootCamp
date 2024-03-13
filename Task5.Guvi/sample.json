@@ -1,0 +1,40 @@
+
+{
+    "name": "Rakesh",
+    "title": "Software Developer",
+    "contact": {
+      "email": "rkshjab@gmail.com",
+      "phone": "9840250488",
+      "location": "chennai.TN"
+    },
+    "education": [
+      {
+        "degree": "Bachelor of Technology in Electronics and communication Engg",
+        "school": "MGR University",
+        "year": 2019
+      },
+      {
+        "degree": "Master of Science in computer science",
+        "school": "University Of Lincoln",
+        "year": 2022
+      }
+    ],
+    "experience": [
+      {
+        "position": "Software Engineer",
+        "company": "Tech Solutions Inc.",
+        "year": "2019-2020",
+        "responsibilities": ["Developed and maintained web applications", "Collaborated with cross-functional teams"]
+      },
+      {
+        "position": "Full Stack developer",
+        "company": "Guvi",
+        "year": "2024",
+        "responsibilities": ["Led development projects", "Mentored junior developers"]
+      }
+    ],
+    "skills": ["JavaScript", "React", "Node.js", "HTML", "CSS", "Git"],
+    "languages": ["English", "Spanish"]
+  }
+
+  
