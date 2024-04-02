@@ -1,4 +1,4 @@
-// Fetch data from the API
+/*// Fetch data from the API
 fetch("https://restcountries.com/v3.1/all")
   .then(response => response.json())
   .then(data => {
@@ -26,4 +26,16 @@ fetch("https://restcountries.com/v3.1/all")
     });
     console.log("Country that uses US dollars:", countryWithUSD);
   })
-  .catch(error => console.error("Error fetching data:", error));
+  .catch(error => console.error("Error fetching data:", error));*/
+
+  let xhr = new XMLHttpRequest();
+console.log(xhr);
+xhr.open ("GET", "https://restcountries.com/v3.1/all");
+xhr.send();
+xhr.onload = function () {
+ const data = JSON.parse(xhr.response);
+console.log(data);
+for (let i = 0; i<data.length; i++) {
+    console.log(data [i]. flag);
+}
+};
